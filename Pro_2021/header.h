@@ -39,10 +39,13 @@
 // # 
 
 int main_stack(); // 210424 #1 Stack
+int main_stack_stl(); // 240625
 int main_queue(); // 210425 #2 Queue
+int main_queue_stl(); //240625
 //int main_Heap(int argc, char* argv[]); // 210430 #3 Priority Queue
 int main_Heap(); // 210430 #3 Priority Queue
 int main_Heap_ss(); // 210430 #3 Priority Queue
+int main_Heap_stl(); //240626
 int main_Tree(); // 210514 #4 Tree
 int main_Graph(); //210608 #5 Graph
 int main_tree_and_query(); //210608 #5 Graph
@@ -55,11 +58,15 @@ int main_dp_sticker(); //#10 DP
 int main_quick_sort(); 
 int main_insert_sort();
 int main_binary_search();
+int main_bs_tree();
 int main_dfs_basic(); //#14 DFS
 int main_bfs_basic(); //#15 BFS
 int main_dfs_nqueen();//#16 dfs N*N 체스판에서 N개의 Queen 놓는 경우의 수
 int main_village(); //#16 dfs 단지번호 붙이기
 int main_underpath(); //#16 내리막길
-int main_top();
-int main_dp_making1();
-int main_coin2();
+int main_dp_sticker(); // #10_DP_Sticker
+int main_dp_tree_vil(); //#10_DP_Tree_우수마을
+int main_dp_top(); // #10_DP_상징물최대높이_최대탑
+int main_dp_making1(); // #10_DP_1로만들기
+int main_coin2();// #10_동전2
+

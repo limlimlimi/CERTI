@@ -23,7 +23,7 @@ using namespace std;
 int n2, top[50], sum = 0;
 int dp[50][250001];
 
-int main_top()
+int main_dp_top()
 {
 	// 시작 시간
 	clock_t startTime = clock();

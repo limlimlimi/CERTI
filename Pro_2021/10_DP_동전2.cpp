@@ -51,16 +51,17 @@ int main_coin2()
 
 	memset(dp_coin,-1,sizeof(dp_coin)); //cstring
 
-	cout << K_coin << "원 을 만들기 위한 동전의 최소 갯수 : " << coin(0, K_coin) << endl;
+	cout << "sizeof(dp_coin) = int (4) * MAX_N (100) * MAX_K (10000) = "<< sizeof(dp_coin) << endl;;
+	cout << K_coin << "원 을 만들기 위한 동전의 최소 갯수 : coin(0,K_coin) = " << coin(0, K_coin) << endl;
 
 	for (int j = 0; j <= K_coin; j++)
-		cout << setw(9) << "[" << j << "]";
+		cout << "    [" << j << "]    ";
 	cout << endl;
 
-	for (int i = 0; i < N_coin; i++)
+	for (int i = 0; i <= N_coin; i++)
 	{
 		for (int j = 0; j <= K_coin; j++)
-			cout << setw(10)<< dp_coin[i][j] << " ";
+			cout << setw(9)<< dp_coin[i][j] << "  ";
 		cout << endl;
 	}
 
